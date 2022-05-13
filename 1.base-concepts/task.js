@@ -1,7 +1,5 @@
 "use strict";
 
-console.log("Task1");
-
 function solveEquation(a, b, c) {
   let arr = [];
   let Discrim = Math.pow(b ^ 2) - (4 * a * c);
@@ -16,3 +14,5 @@ function solveEquation(a, b, c) {
     console.log(["1 Root = " + (-b + Math.sqrt(d)) / (2 * a), (-b - Math.sqrt(d)) / (2 * a)]);    
     }
 };
+
+solveEquation();
