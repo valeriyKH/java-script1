@@ -20,6 +20,7 @@ function solveEquation(a, b, c) {
   } else  {
     console.log(arr);
   }
+  return arr;
 };  
   
   
